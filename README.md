@@ -124,6 +124,113 @@ The globe exposes:
 
 Use the visibility variable to drive opacity, blur, scale, or any CSS property for smooth transitions.
 
+## Branch Locations
+
+The `data/` directory contains geographic coordinates for branch locations that can be used directly as COBE markers.
+
+### Files
+
+| File | Description |
+|------|-------------|
+| `data/branch_locations.csv` | Branch data in CSV format |
+| `data/branches_consolidated.geojson` | Same data as a GeoJSON `FeatureCollection` |
+
+### CSV columns
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `id` | number | Unique branch identifier |
+| `branch` | string | Branch name |
+| `address` | string | Branch street address |
+| `link` | string | Google Maps link |
+| `icon` | string | Icon type identifier |
+| `longitude` | number | Geographic longitude (WGS84) |
+| `latitude` | number | Geographic latitude (WGS84) |
+
+### Using branch locations with COBE (JavaScript / browser)
+
+```js
+import createGlobe from 'cobe'
+import { parseBranchCSV, branchesToMarkers } from './src/branches.js'
+
+const response = await fetch('/data/branch_locations.csv')
+const csvText  = await response.text()
+const branches = parseBranchCSV(csvText)
+const markers  = branchesToMarkers(branches, { size: 0.04, color: [1, 0.5, 0] })
+
+const globe = createGlobe(canvas, {
+  devicePixelRatio: 2,
+  width: 600,
+  height: 600,
+  phi: 0.5,
+  theta: 0.3,
+  dark: 0,
+  diffuse: 1.2,
+  mapSamples: 16000,
+  mapBrightness: 6,
+  baseColor: [1, 1, 1],
+  markerColor: [1, 0.5, 0],
+  glowColor: [1, 1, 1],
+  markers,
+})
+```
+
+### Using branch locations with COBE (Node.js)
+
+```js
+import { readFileSync } from 'fs'
+import { parseBranchCSV, branchesToMarkers, branchesToGeoJSON } from './src/branches.js'
+
+const csvText  = readFileSync('data/branch_locations.csv', 'utf-8')
+const branches = parseBranchCSV(csvText)
+
+// Convert to COBE markers
+const markers = branchesToMarkers(branches, { size: 0.04 })
+console.log(markers)
+
+// Or regenerate the GeoJSON file
+const geojson = branchesToGeoJSON(branches)
+console.log(JSON.stringify(geojson, null, 2))
+```
+
+### Reading branch locations in Python
+
+```python
+import csv
+import json
+
+# Read CSV
+branches = []
+with open('data/branch_locations.csv', encoding='utf-8') as f:
+    for row in csv.DictReader(f):
+        branches.append({
+            'id':        row['id'],
+            'branch':    row['branch'],
+            'address':   row['address'],
+            'link':      row['link'],
+            'icon':      row['icon'],
+            'longitude': float(row['longitude']),
+            'latitude':  float(row['latitude']),
+        })
+
+# Print first 3 branches
+for b in branches[:3]:
+    print(b)
+
+# Convert to GeoJSON and write to file
+features = [
+    {
+        'type': 'Feature',
+        'geometry': {'type': 'Point', 'coordinates': [b['longitude'], b['latitude']]},
+        'properties': {k: v for k, v in b.items() if k not in ('longitude', 'latitude')},
+    }
+    for b in branches
+]
+geojson = {'type': 'FeatureCollection', 'features': features}
+with open('data/branches_consolidated.geojson', 'w', encoding='utf-8') as f:
+    json.dump(geojson, f, ensure_ascii=False, indent=2)
+```
+
 ## Acknowledgment
 
 This project is inspired & based on the great work of:

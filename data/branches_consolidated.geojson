@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.2357, 30.0444] },
+      "properties": { "id": 1, "branch": "القاهرة - وسط البلد", "address": "شارع طلعت حرب - وسط القاهرة", "link": "https://maps.google.com/?q=30.0444%2C31.2357", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.3419, 30.0626] },
+      "properties": { "id": 2, "branch": "القاهرة - مدينة نصر", "address": "شارع عباس العقاد - مدينة نصر", "link": "https://maps.google.com/?q=30.0626%2C31.3419", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.2569, 29.9602] },
+      "properties": { "id": 3, "branch": "القاهرة - المعادي", "address": "شارع 9 - المعادي", "link": "https://maps.google.com/?q=29.9602%2C31.2569", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.3334, 30.0863] },
+      "properties": { "id": 4, "branch": "القاهرة - مصر الجديدة", "address": "شارع الثورة - مصر الجديدة", "link": "https://maps.google.com/?q=30.0863%2C31.3334", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.2187, 30.0601] },
+      "properties": { "id": 5, "branch": "القاهرة - الزمالك", "address": "شارع 26 يوليو - الزمالك", "link": "https://maps.google.com/?q=30.0601%2C31.2187", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.2035, 30.0401] },
+      "properties": { "id": 6, "branch": "الجيزة - الدقي", "address": "شارع التحرير - الدقي", "link": "https://maps.google.com/?q=30.0401%2C31.2035", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.1313, 29.9870] },
+      "properties": { "id": 7, "branch": "الجيزة - الهرم", "address": "شارع الهرم - الجيزة", "link": "https://maps.google.com/?q=29.9870%2C31.1313", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.9433, 29.9313] },
+      "properties": { "id": 8, "branch": "الجيزة - 6 أكتوبر", "address": "المحور المركزي - مدينة 6 أكتوبر", "link": "https://maps.google.com/?q=29.9313%2C30.9433", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.0175, 31.2988] },
+      "properties": { "id": 9, "branch": "الإسكندرية - المنتزه", "address": "شارع جمال عبد الناصر - المنتزه", "link": "https://maps.google.com/?q=31.2988%2C30.0175", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.9668, 31.2158] },
+      "properties": { "id": 10, "branch": "الإسكندرية - سيدي جابر", "address": "شارع سيدي جابر - الإسكندرية", "link": "https://maps.google.com/?q=31.2158%2C29.9668", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.8028, 31.2125] },
+      "properties": { "id": 11, "branch": "الإسكندرية - العجمي", "address": "شارع الكورنيش - العجمي", "link": "https://maps.google.com/?q=31.2125%2C29.8028", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.9734, 31.2456] },
+      "properties": { "id": 12, "branch": "الإسكندرية - بحري", "address": "شارع السيوف - بحري", "link": "https://maps.google.com/?q=31.2456%2C29.9734", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.3053, 31.2565] },
+      "properties": { "id": 13, "branch": "بورسعيد - وسط المدينة", "address": "شارع الجمهورية - بورسعيد", "link": "https://maps.google.com/?q=31.2565%2C32.3053", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.2715, 30.5965] },
+      "properties": { "id": 14, "branch": "الإسماعيلية - المركز", "address": "شارع السلام - الإسماعيلية", "link": "https://maps.google.com/?q=30.5965%2C32.2715", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.5498, 29.9668] },
+      "properties": { "id": 15, "branch": "السويس - الأربعين", "address": "شارع الأربعين - السويس", "link": "https://maps.google.com/?q=29.9668%2C32.5498", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.3807, 31.0364] },
+      "properties": { "id": 16, "branch": "المنصورة - المركز", "address": "ميدان الساعة - المنصورة", "link": "https://maps.google.com/?q=31.0364%2C31.3807", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.0004, 30.7865] },
+      "properties": { "id": 17, "branch": "طنطا - البلد", "address": "شارع البحر - طنطا", "link": "https://maps.google.com/?q=30.7865%2C31.0004", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.5021, 30.5877] },
+      "properties": { "id": 18, "branch": "الزقازيق - المركز", "address": "شارع بور سعيد - الزقازيق", "link": "https://maps.google.com/?q=30.5877%2C31.5021", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.8133, 31.4155] },
+      "properties": { "id": 19, "branch": "دمياط - المركز", "address": "شارع النيل - دمياط", "link": "https://maps.google.com/?q=31.4155%2C31.8133", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.1837, 27.1809] },
+      "properties": { "id": 20, "branch": "أسيوط - المركز", "address": "شارع جمال عبد الناصر - أسيوط", "link": "https://maps.google.com/?q=27.1809%2C31.1837", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.6948, 26.5569] },
+      "properties": { "id": 21, "branch": "سوهاج - المركز", "address": "شارع الأزهر - سوهاج", "link": "https://maps.google.com/?q=26.5569%2C31.6948", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.7160, 26.1552] },
+      "properties": { "id": 22, "branch": "قنا - المركز", "address": "شارع السيدة خديجة - قنا", "link": "https://maps.google.com/?q=26.1552%2C32.7160", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.6396, 25.6872] },
+      "properties": { "id": 23, "branch": "الأقصر - البلد", "address": "شارع المعبد - الأقصر", "link": "https://maps.google.com/?q=25.6872%2C32.6396", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.8998, 24.0889] },
+      "properties": { "id": 24, "branch": "أسوان - المركز", "address": "شارع الكورنيش - أسوان", "link": "https://maps.google.com/?q=24.0889%2C32.8998", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [33.8116, 27.2578] },
+      "properties": { "id": 25, "branch": "الغردقة - الداون تاون", "address": "شارع الشلال - الغردقة", "link": "https://maps.google.com/?q=27.2578%2C33.8116", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [34.3300, 27.9158] },
+      "properties": { "id": 26, "branch": "شرم الشيخ - نعمة باي", "address": "شارع الشيراتون - شرم الشيخ", "link": "https://maps.google.com/?q=27.9158%2C34.3300", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.8428, 29.3084] },
+      "properties": { "id": 27, "branch": "الفيوم - المركز", "address": "شارع جمال عبد الناصر - الفيوم", "link": "https://maps.google.com/?q=29.3084%2C30.8428", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.0994, 29.0661] },
+      "properties": { "id": 28, "branch": "بني سويف - المركز", "address": "شارع صلاح سالم - بني سويف", "link": "https://maps.google.com/?q=29.0661%2C31.0994", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.7503, 28.1099] },
+      "properties": { "id": 29, "branch": "المنيا - المركز", "address": "شارع الحرية - المنيا", "link": "https://maps.google.com/?q=28.1099%2C30.7503", "icon": "branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.2373, 31.3543] },
+      "properties": { "id": 30, "branch": "مرسى مطروح - المركز", "address": "شارع الكورنيش - مرسى مطروح", "link": "https://maps.google.com/?q=31.3543%2C27.2373", "icon": "branch" }
+    }
+  ]
+}
