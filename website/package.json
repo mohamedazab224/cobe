@@ -18,6 +18,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "prebuild": "pnpm --filter cobe build",
     "build": "next build",
     "dev": "next dev",
     "start": "next start"
